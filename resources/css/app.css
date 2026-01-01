@@ -1,5 +1,4 @@
 @import 'tailwindcss';
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
 
 /* ============================================
    Content Sources
@@ -19,7 +18,7 @@
 
   /* Color Palette - HSL Space Separated */
   /* Hijau Tua (Dark Green) - Header, Navbar, Footer, Primary Text */
-  --primary: 158 45% 20%; 
+  --primary: 158 45% 20%;
   --primary-foreground: 145 60% 98%;
 
   /* Hijau Muda (Light Green) - Accent, Buttons, Highlights */
@@ -29,16 +28,16 @@
   /* Neutral/Backgrounds */
   --background: 150 20% 99%;
   --foreground: 158 45% 15%;
-  
+
   --card: 0 0% 100%;
   --card-foreground: 158 45% 15%;
-  
+
   --popover: 0 0% 100%;
   --popover-foreground: 158 45% 15%;
 
   --muted: 150 15% 94%;
   --muted-foreground: 158 20% 50%;
-  
+
   --border: 150 15% 90%;
   --input: 150 15% 90%;
   --ring: 142 65% 55%;

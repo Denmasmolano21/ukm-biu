@@ -17,16 +17,21 @@ class DataUkm extends Model
         'category',
         'short_description',
         'full_description',
+        'visi',
+        'misi',
         'activities',
         'benefits',
         'instagram',
+        'regis_url',
         'logo_url',
         'contact_info',
+        'is_open_recruitment',
     ];
 
     protected $casts = [
         'activities' => 'array',
         'benefits' => 'array',
+        'is_open_recruitment' => 'boolean',
     ];
 
     public function getRouteKeyName()
